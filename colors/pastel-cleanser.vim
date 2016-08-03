@@ -285,9 +285,9 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:uno_3 = s:blue_2
     let s:uno_4 = s:blue_3
 
-    let s:duo_1 = s:purple_0
-    let s:duo_2 = s:purple_1
-    let s:duo_3 = s:purple_2
+    " let s:duo_1 = s:purple_0
+    " let s:duo_2 = s:purple_1
+    " let s:duo_3 = s:purple_2
 
     let s:syntax_color_renamed  = '33a0ff' " #33a0ff
     let s:syntax_color_added    = '43d08a' " #43d08a
