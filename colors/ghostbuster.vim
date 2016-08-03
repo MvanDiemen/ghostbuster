@@ -10,7 +10,7 @@ syntax reset
 "if exists('g:colors_name')
   "unlet g:colors_name
 "endif
-let g:colors_name = 'pastel-cleanser'
+let g:colors_name = 'ghostbuster'
 
 if !exists('g:two_firewatch_italics')
   let g:two_firewatch_italics = 0
