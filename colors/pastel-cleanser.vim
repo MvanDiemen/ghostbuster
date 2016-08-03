@@ -285,9 +285,9 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:uno_3 = s:blue_2
     let s:uno_4 = s:blue_3
 
-    let s:duo_1 = s:purple_0
-    let s:duo_2 = s:purple_1
-    let s:duo_3 = s:purple_2
+    let s:trio_1 = s:purple_0
+    let s:trio_2 = s:purple_1
+    let s:trio_3 = s:purple_2
 
     let s:syntax_color_renamed  = '33a0ff' " #33a0ff
     let s:syntax_color_added    = '43d08a' " #43d08a
@@ -296,7 +296,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
 
     let s:syntax_fg               = 'abb2bf' " s:uno_2  #abb2bf
     let s:syntax_bg               = '282c34' " #282c34
-    let s:syntax_accent           = s:purple_4
+    let s:syntax_accent           = s:purple_0
     let s:syntax_gutter           = '636d83' " #636d83
     let s:syntax_selection        = '3e4452' " #3e4452
     let s:syntax_fold_bg          = '5c6370' " #5c6370
@@ -346,17 +346,17 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('WildMenu',     s:syntax_fg,      s:uno_4,              '')
   call <sid>X('Normal',       s:syntax_fg,      s:syntax_bg,          '')
   call <sid>X('SignColumn',   '',               s:uno_4,              '')
-  call <sid>X('Special',      s:duo_2,          '',                   '')
+  call <sid>X('Special',      s:duo_1,          '',                   '')
   " }}}
 
   " Standard syntax highlighting --------------------------------------------{{{
-  call <sid>X('Comment',        s:uno_4,         '',          'italic')
-  call <sid>X('Constant',       s:duo_2,         '',          '')
+  call <sid>X('Comment',        s:syntax_fold_bg,         '',          'italic')
+  call <sid>X('Constant',       s:trio_2,         '',          '')
   call <sid>X('String',         s:duo_1,         '',          '')
-  call <sid>X('Character',      s:duo_2,         '',          '')
-  call <sid>X('Number',         s:duo_2,         '',          '')
-  call <sid>X('Boolean',        s:duo_2,         '',          '')
-  call <sid>X('Float',          s:duo_2,         '',          '')
+  call <sid>X('Character',      s:trio_2,         '',          '')
+  call <sid>X('Number',         s:trio_2,         '',          '')
+  call <sid>X('Boolean',        s:trio_2,         '',          '')
+  call <sid>X('Float',          s:trio_2,         '',          '')
   call <sid>X('Identifier',     s:uno_3,         '',          'none')
   call <sid>X('Function',       s:uno_2,         '',          '')
   call <sid>X('Statement',      s:duo_2,         '',          'none')
@@ -368,7 +368,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('Exception',      s:uno_1,         '',          '')
   call <sid>X('PreProc',        s:uno_1,         '',          '')
   call <sid>X('Include',        s:duo_2,         '',          '')
-  call <sid>X('Define',         s:duo_2,         '',          'none')
+  call <sid>X('Define',         s:duo_1,         '',          'none')
   call <sid>X('Macro',          s:uno_3,         '',          '')
   call <sid>X('PreCondit',      'ff0000',        '',          '')
   call <sid>X('Type',           s:duo_1,         '',          'none')
@@ -378,7 +378,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('Special',        s:uno_3,         '',          '')
   call <sid>X('SpecialChar',    '',              '',          '')
   call <sid>X('Tag',            '',              '',          '')
-  call <sid>X('Delimiter',      s:uno_4,         '',          '')
+  call <sid>X('Delimiter',      s:uno_1,         '',          '')
   call <sid>X('SpecialComment', '',              '',          '')
   call <sid>X('Debug',          '',              '',          '')
   call <sid>X('Underlined',     s:duo_1,         '',          'underline')
@@ -599,21 +599,21 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('rubyBlockParameter',            s:uno_2,         '', '')
   call <sid>X('rubyBlockParameterList',        s:uno_3,         '', '')
   call <sid>X('rubyCapitalizedMethod',         s:duo_2,         '', '')
-  call <sid>X('rubyClass',                     s:duo_2,         '', '')
+  call <sid>X('rubyClass',                     s:trio_1,         '', '')
   call <sid>X('rubyConstant',                  s:uno_3,         '', '')
-  call <sid>X('rubyControl',                   s:duo_2,         '', '')
+  call <sid>X('rubyControl',                   s:uno_1,         '', '')
   call <sid>X('rubyConditionalModifier',       s:syntax_accent, '', '')
   call <sid>X('rubyCurlyBlockDelimiter',       s:uno_4,         '', '')
   call <sid>X('rubyDefine',                    s:duo_2,         '', '')
   call <sid>X('rubyEscape',                    s:syntax_accent, '', '')
-  call <sid>X('rubyFunction',                  s:uno_1,         '', '')
+  call <sid>X('rubyFunction',                  s:duo_3,         '', '')
   call <sid>X('rubyGlobalVariable',            s:syntax_accent, '', '')
   call <sid>X('rubyInclude',                   s:duo_2,         '', '')
   call <sid>X('rubyIncluderubyGlobalVariable', s:syntax_accent, '', '')
   call <sid>X('rubyInstanceVariable',          s:syntax_accent, '', '')
   call <sid>X('rubyInterpolation',             s:duo_2,         '', '')
   call <sid>X('rubyInterpolationDelimiter',    s:uno_4,         '', '')
-  call <sid>X('rubyModule',                    s:duo_2,         '', '')
+  call <sid>X('rubyModule',                    s:trio_2,         '', '')
   call <sid>X('rubyRegexp',                    s:duo_1,         '', '')
   call <sid>X('rubyRegexpDelimiter',           s:uno_4,         '', '')
   call <sid>X('rubyStringDelimiter',           s:duo_3,         '', '')
