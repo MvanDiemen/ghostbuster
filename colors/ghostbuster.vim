@@ -12,8 +12,8 @@ syntax reset
 "endif
 let g:colors_name = 'ghostbuster'
 
-if !exists('g:two_firewatch_italics')
-  let g:two_firewatch_italics = 0
+if !exists('g:ghostbuster_italics')
+  let g:ghostbuster_italics = 0
 endif
 
 if has('gui_running') || &t_Co == 88 || &t_Co == 256
@@ -217,7 +217,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   " sets the highlighting for the given group
   fun <SID>X(group, fg, bg, attr)
     let l:attr = a:attr
-    if g:two_firewatch_italics == 0 && l:attr ==? 'italic'
+    if g:ghostbuster_italics == 0 && l:attr ==? 'italic'
       let l:attr = 'none'
     endif
 
