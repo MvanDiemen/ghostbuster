@@ -267,19 +267,6 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:trio_2 = s:purple_3
     let s:trio_3 = s:purple_4
 
-    " let s:uno_1 = '2d2006'
-    " let s:uno_2 = '896724'
-    " let s:uno_3 = 'B29762'
-    " let s:uno_4 = 'B6ad9a'
-    "
-    " let s:duo_1 = '065289'
-    " let s:duo_2 = '718ecd'
-    " let s:duo_3 = 'aeb3b7'
-    "
-    " let s:trio_1 = '8963A6' " #8963A6
-    " let s:trio_2 = 'CEBCDC' " #CEBCDC
-    " let s:trio_3 = 'AB8DC2' " #AB8DC2
-    "
     let s:syntax_color_renamed  = '33a0ff'
     let s:syntax_color_added    = '43d08a'
     let s:syntax_color_modified = 'e0c285'
