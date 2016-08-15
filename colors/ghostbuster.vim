@@ -263,6 +263,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:uno_2 = s:blue_3
     let s:uno_3 = s:blue_2
     let s:uno_4 = s:blue_1
+    let s:uno_5 = s:blue_0
 
     let s:trio_1 = s:purple_2
     let s:trio_2 = s:purple_3
@@ -273,7 +274,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:syntax_color_modified = 'e0c285'
     let s:syntax_color_removed  = 'e05252'
 
-    let s:syntax_fg               = s:uno_2
+    let s:syntax_fg               = s:uno_5
     let s:syntax_bg               = 'FAF8F5'
     let s:syntax_accent           = '447EBB'
     let s:syntax_gutter           = 'EAE1D2'
@@ -289,6 +290,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:uno_2 = s:blue_1
     let s:uno_3 = s:blue_2
     let s:uno_4 = s:blue_3
+    let s:uno_5 = s:blue_4
 
     let s:trio_1 = s:purple_0
     let s:trio_2 = s:purple_1
