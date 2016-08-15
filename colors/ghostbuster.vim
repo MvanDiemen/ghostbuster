@@ -246,6 +246,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   let s:green_2 = 'AECD82' " #AECD82
   let s:green_3 = '678C32' " #678C32
   let s:green_4 = '486A16' " #486A16
+  let s:green_5 = '2F5100'
 
   let s:purple_0 = '8963A6' " #8963A6
   let s:purple_1 = 'CEBCDC' " #CEBCDC
@@ -254,9 +255,9 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   let s:purple_4 = '5A2B7D' " #5A2B7D
 
   if &background ==? 'light'
-    let s:duo_1 = s:green_2
-    let s:duo_2 = s:green_3
-    let s:duo_3 = s:green_4
+    let s:duo_1 = s:green_3
+    let s:duo_2 = s:green_4
+    let s:duo_3 = s:green_5
 
     let s:uno_1 = s:blue_4
     let s:uno_2 = s:blue_3
