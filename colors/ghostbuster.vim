@@ -610,7 +610,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('rubyCurlyBlockDelimiter',       s:uno_4,         '', '')
   call <sid>X('rubyDefine',                    s:duo_2,         '', '')
   call <sid>X('rubyEscape',                    s:syntax_accent, '', '')
-  call <sid>X('rubyFunction',                  s:duo_3,         '', '')
+  call <sid>X('rubyFunction',                  s:uno_1,         '', '')
   call <sid>X('rubyGlobalVariable',            s:syntax_accent, '', '')
   call <sid>X('rubyInclude',                   s:duo_2,         '', '')
   call <sid>X('rubyIncluderubyGlobalVariable', s:syntax_accent, '', '')
