@@ -266,7 +266,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:syntax_color_modified = 'e0c285'
     let s:syntax_color_removed  = 'e05252'
 
-    let s:syntax_fg               = s:blue_0
+    let s:syntax_fg               = '282C34'
     let s:syntax_bg               = 'FAF8F5'
     let s:syntax_accent           = s:blue_1
     let s:syntax_gutter           = 'EAE1D2'
